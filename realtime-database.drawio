@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:38:46.185Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="fMk1264zNMNiG03p4_WO" version="14.7.6" type="github"><diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">7ZrLcpswFIafxsvMgAiELIOdpJ3mNnVmOu2mI4MKqgWiQsROn75HIBljsOOMW9cLVrF+HQ66/N9BOB4543R5K3Ce3POIsBGyouXImYwQshFy4I9SXo3i2LUSCxpprRGm9DfRoqXVkkakaAVKzpmkeVsMeZaRULY0LARftMN+cNa+a45j0hGmIWZd9QuNZFKrvms1+gdC48Tc2bZ0T4pNsBaKBEd8sSY51yNnLDiX9ad0OSZMrZ5Zl/q6my29q4EJksl9LvjuptPn8mkpzr7RT5/nwWT69eJMZ3nBrNQT1oOVr2YFigVNGc6gFfzgmZzqHhh/ECaURXf4lZdqBIXE4dy0goQL+hviMYMuGwToFlJvMPJbEVN1pQ4TpICYJzOtTekeK29ZK/UOF1ILIWcM5wWdVeNTSopFTLOAS8lTLZnZ3FDGxpxxAXrGV7O7wSllyqtPRKQQBmNA1j0WcyLM/OsZ2B60c04zWRnMDUbuBJQXIiQF91wxGmfQIXleTz2cB1xEKkszeFyPtF4cwecrh6m1LeZEhonujmihgu9LMP60CtUdevvgrmS51Rf2ym3AKeEpkeIVQswFnjaoRtTXzUVjd/dca8ma1c+NiDVi8Sp140L4oI1YNfnsp4IUWQzPCKsve36E9uTR+A7LUud7IIta3OlgtDY57fh+83aX+O0NT2TKjHHW7Gv37PRMuywochzSLF65zu01yi502nZBlpGmdWajdQDoQafLWD8pLbfVK7VJBwBj2C84U3tSaSZshJwry0Vosq8rt9ejrlW1NaFsbFrT9vusaaN3WxOa2p3bnYqLOSgwRo+pfZoJ+BTLasK1AnuftQzo/SpVfa+sdrbQQ7yCkIyD3VgTsJmJbgoqw/bURWVMldi28mVfWlejhVyTEWZcJ23fCOTOzUGrp2bkajMZDkkCD1Qi2g/Znbw6O3ldJFQS5XPVXsCZooGwv0yuW3DLk8puoHxW5bhmhZdZRCLdjUWo0b7spbWFxx5lA4dJKcitGv7E16P8Ygy6d91+s951izlq13KTdR2Yvlruv7+U788LGng5gJfzgZfj8WKfBDDOAMwBwLgDMEd8wPxfYCaPHx9uu28OHxUjueAxnIiLPSzjDe8Qp/IOYVmeZ1n/4h3CZPE3HHwS7xTnQ8k/oORfDCX/IGK8ncSc4juFO/ByAC/+wMvxePnP7xSTx4fr7glpzNOcEQmL/7ZbLofT0amcjuzgyr5G//B05HineDryhmp/QLW3rZ0AD+X+LWQudyJzisejiwGYQ4CxB2COB8xpfOfqD8QcQszu/8IPxPzdR8zxiIFm8wulKnTth17O9R8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-09T11:35:32.155Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="m16SAY4mzhs93syWg_su" version="14.7.6" type="github">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RACrBsPruQbAjq-KJwp2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="630" height="200" as="geometry" />
+        </mxCell>
+        <object label="mysql汇总指标" placeholders="1" id="RACrBsPruQbAjq-KJwp2-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;fontSize=15;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+            <mxGeometry x="250" y="80" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="GreenPlum&lt;br style=&quot;font-size: 15px;&quot;&gt;多维度关联" placeholders="1" id="RACrBsPruQbAjq-KJwp2-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="480" y="80" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Hbase汇总指标&lt;br style=&quot;font-size: 15px;&quot;&gt;高并发场景" placeholders="1" id="RACrBsPruQbAjq-KJwp2-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="250" y="180" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Redis汇总计算" placeholders="1" id="RACrBsPruQbAjq-KJwp2-6">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="480" y="180" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-7" value="DWS" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-8" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="630" height="130" as="geometry" />
+        </mxCell>
+        <object label="Kafka事实数据" placeholders="1" id="RACrBsPruQbAjq-KJwp2-9">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;fontSize=15;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+            <mxGeometry x="250" y="300" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Redis历史数据" placeholders="1" id="RACrBsPruQbAjq-KJwp2-10">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="480" y="300" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-13" value="DWD" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="334" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-15" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="640" height="130" as="geometry" />
+        </mxCell>
+        <object label="Kafka事实数据" placeholders="1" id="RACrBsPruQbAjq-KJwp2-16">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;fontSize=15;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+            <mxGeometry x="250" y="589" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="DIM维度表" placeholders="1" id="RACrBsPruQbAjq-KJwp2-17">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="480" y="589" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="RACrBsPruQbAjq-KJwp2-18" value="ODS" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="604" width="80" height="50" as="geometry" />
+        </mxCell>
+        <object label="Flink" placeholders="1" id="RACrBsPruQbAjq-KJwp2-19">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;shadow=0;sketch=1;rounded=1;fillStyle=hachure;fillColor=#dae8fc;labelBackgroundColor=none;glass=0;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="365" y="450" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
