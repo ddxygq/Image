@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T08:45:06.197Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="GMaeHI2-EeWHHOLlgIY0" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T09:37:32.482Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Yvxz77k1hdOK1kB49KIp" version="14.7.6" type="github">
   <diagram id="_XJO0J99vWzrOxl8445-" name="第 1 页">
-    <mxGraphModel dx="934" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="894" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DkgCfpx4we4KzXeQwORl-1" value="&lt;div style=&quot;font-size: 14px&quot;&gt;ResourceManager&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;yarn.scheduler.maximum-allocation-mb&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;yarn.scheduler.minimum-allocation-mb&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="290" y="120" width="300" height="60" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-1" value="&lt;div style=&quot;font-size: 15px&quot;&gt;ResourceManager&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;yarn.scheduler.maximum-allocation-mb=8192&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;yarn.scheduler.minimum-allocation-mb=1024&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="340" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-2" value="&lt;div style=&quot;font-size: 14px&quot;&gt;NodeManager&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;yarn.scheduler.maximum-allocation-mb&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;yarn.scheduler.minimum-allocation-mb&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="290" y="190" width="300" height="60" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-2" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;NodeManager&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;yarn.scheduler.maximum-allocation-mb&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;yarn.scheduler.minimum-allocation-mb&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;shadow=0;sketch=0;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DkgCfpx4we4KzXeQwORl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="290" width="200" height="80" as="geometry" />
@@ -40,14 +40,14 @@
         <mxCell id="DkgCfpx4we4KzXeQwORl-10" value="reduce JVM&lt;br&gt;-Xmx2560M" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="360" y="370" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-13" value="mapreduce.map.memory.mb=1536&lt;br&gt;2048M allocated" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="18" y="500" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-13" value="mapreduce.map.memory.mb=1536&lt;br&gt;2048M allocated" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="9" y="500" width="265" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-18" value="mapreduce.map.java.opts=-Xmx1024M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="18" y="551" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-18" value="mapreduce.map.java.opts=-Xmx1024M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="9" y="551" width="265" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-19" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;2048 * 2.1 = 3225.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="18" y="602" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-19" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;2048 * 2.1 = 3225.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="9" y="602" width="265" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DkgCfpx4we4KzXeQwORl-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="550" y="290" width="200" height="80" as="geometry" />
@@ -61,23 +61,20 @@
         <mxCell id="DkgCfpx4we4KzXeQwORl-23" value="map JVM&lt;br&gt;-Xmx1024M" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="590" y="370" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-24" value="mapreduce.reduce.memory.mb=3072&lt;br&gt;3072M allocated" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="500" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-24" value="mapreduce.reduce.memory.mb=3072&lt;br&gt;3072M allocated" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="286" y="500" width="265" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-25" value="mapreduce.reduce.java.opts=-Xmx2560M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="550" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-25" value="mapreduce.reduce.java.opts=-Xmx2560M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="286" y="550" width="265" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-26" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;3072* 2.1 = 6451.2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="602" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-26" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;3072* 2.1 = 6451.2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="286" y="602" width="265" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-27" value="mapreduce.map.memory.mb=1536&lt;br&gt;2048M allocated" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="581" y="500" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-27" value="&lt;div&gt;yarn.app.mapreduce.am.resource.mb=1536&lt;/div&gt;&lt;div&gt;2048M allocated&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="561" y="500" width="279" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-28" value="mapreduce.map.java.opts=-Xmx1024M" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="581" y="551" width="265" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DkgCfpx4we4KzXeQwORl-29" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;2048 * 2.1 = 3225.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="581" y="602" width="265" height="50" as="geometry" />
+        <mxCell id="DkgCfpx4we4KzXeQwORl-29" value="yarn.nodemanager.vmem-pmem-ratio=2.1&lt;br&gt;2048 * 2.1 = 3225.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="560.5" y="560" width="279" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DkgCfpx4we4KzXeQwORl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
